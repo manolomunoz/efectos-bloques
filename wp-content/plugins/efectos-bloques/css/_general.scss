@@ -1,0 +1,26 @@
+body.separate-containers {
+	.site-main {
+		margin: 0px;
+	}
+	.inside-article {
+		padding: 0px 40px;
+	}
+}
+
+
+.full-content-padding {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.site-footer, .site-header {
+	display: none;
+}
+@media only screen and (max-width: 767px) {
+	.responsive-reverse {
+		flex-direction: column-reverse;
+	}
+	.full-content-padding {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
